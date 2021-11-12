@@ -6,8 +6,8 @@ import { useNavigation } from '@react-navigation/core';
 
 const image = require("../../assets/user-icon.png");
 
-export const HeaderProfile = () => {
-
+export const HeaderFormulario = () => {
+    //const name = nombre;
     const navigator = useNavigation();
 
     const onNotifications = () => {
@@ -17,7 +17,7 @@ export const HeaderProfile = () => {
     }
     return (
         <View style={styles.headerProfileStyle}>
-            <Text style={styles.headerTitleStyle}>Perfil</Text>
+            <Text style={styles.headerTitleStyle}>Test</Text>
             <View style={[styles.container, { alignItems: 'center', justifyContent: 'center'}]}>
                 <View style={{ height: '80%', width:'80%'}}>
                     <ImageBackground

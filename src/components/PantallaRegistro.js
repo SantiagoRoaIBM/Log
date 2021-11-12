@@ -19,7 +19,7 @@ import {
 //import CheckBox from '@react-native-community/checkbox';
 //import DropDownPicker from 'react-native-dropdown-picker';
 
-function Registro({navigation}) {
+function PantallaRegistro({navigation}) {
   const [isSelected, setSelection] = useState(false);
 
   const nextFocus = React.useRef(null);
@@ -281,4 +281,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Registro;
+export default PantallaRegistro;

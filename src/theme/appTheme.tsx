@@ -60,7 +60,12 @@ export const styles = StyleSheet.create({
         fontSize: hp('5%'),
     },
     regularText: {
+        textAlign: 'center',
         fontSize: hp('2%'),
+    },
+    mediumText: {
+        textAlign: 'center',
+        fontSize: hp('3%'),
     },
     headerProfileStyle: {
         height: "10%",
@@ -127,6 +132,92 @@ export const styles = StyleSheet.create({
         borderRadius: 40,
         height: '30%',
         alignItems: 'center',
+    },
+    backProfileFormulario: {
+        height: hp('75%'), // 70% of height device screen
+        width: wp('75%'), // 80% of width device screen
+        marginTop: hp('3%'),
+        marginLeft: wp('0%'),
+        paddingLeft: wp('0%'),
+        flexDirection: 'row',
+    },
+    paso1Formulario: {
+        height: hp('5%'), // 70% of height device screen
+        width: wp('10%'), // 80% of width device screen
+        //flexDirection: 'row',
+        marginLeft: wp('15%'),
+        marginTop: wp('4%'),
+        //justifyContent: 'center',
+        borderTopLeftRadius: 8,
+        borderTopRightRadius: 8,
+        borderBottomLeftRadius: 8,
+        borderBottomRightRadius: 8,
+        borderColor: '#D0D3D4',
+        backgroundColor: '#D0D3D4',
+        borderWidth: wp('0.2%'),
+    },
+    linea: {
+        height: hp('0.1%'), // 70% of height device screen
+        width: wp('4.5%'), // 80% of width device screen
+        marginLeft: wp('0%'),
+        marginRight: wp('0%'),
+        marginTop: wp('5%'),
+        borderColor: '#808080',
+        borderWidth: wp('0.1%'),
+    },
+    paso2Formulario: {
+        height: hp('5%'), // 70% of height device screen
+        width: wp('10%'), // 80% of width device screen
+        //flexDirection: 'row',
+        marginLeft: wp('0%'),
+        marginTop: wp('4%'),
+        //justifyContent: 'center',
+        borderTopLeftRadius: 8,
+        borderTopRightRadius: 8,
+        borderBottomLeftRadius: 8,
+        borderBottomRightRadius: 8,
+        borderColor: '#808080',
+        backgroundColor: '#808080',
+        borderWidth: wp('0.2%'),
+    },
+    paso3Formulario: {
+        height: hp('5%'), // 70% of height device screen
+        width: wp('10%'), // 80% of width device screen
+        //flexDirection: 'row',
+        marginLeft: wp('0%'),
+        marginTop: wp('4%'),
+        //justifyContent: 'center',
+        borderTopLeftRadius: 8,
+        borderTopRightRadius: 8,
+        borderBottomLeftRadius: 8,
+        borderBottomRightRadius: 8,
+        borderColor: '#D0D3D4',
+        backgroundColor: '#D0D3D4',
+        borderWidth: wp('0.2%'),
+    },
+    DocumentsFieldStyle: {
+        height: '90%',
+
+    },
+    ContainerBlankField: {
+        display: 'flex',
+        flex: 1,
+        alignItems: 'center',
+        paddingTop: '4%',
+        backgroundColor: 'rgb(210,210,210)',
+        height: '60%',
+        width: '80%',
+        alignSelf: 'center'
+    },
+    windowDocuments: {
+        marginTop: '3%',
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        display: 'flex',
+        backgroundColor: 'rgb(230,230,230)',
+        height: '10%',
+        width: '100%',
     }
 });
 
