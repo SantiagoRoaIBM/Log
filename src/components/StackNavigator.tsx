@@ -22,6 +22,7 @@ export const StackNavigator = () => {
           backgroundColor: 'white'
         }
       }}>
+        
       <Stack.Screen name="LoginPage" component={LoginPage} />
       <Stack.Screen name="Registro" component={Registro} />
       <Stack.Screen name="TerminoFijo" component={TerminoFijo} />
